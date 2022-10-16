@@ -3,12 +3,12 @@
 ## install
 
 ```bash
-pnpm install @zhu-hong/confirmbox
+pnpm install @zhu-hong/confirm
 ```
 
 ## usage
 ```ts
-import { useConfirm } from '@zhu-hong/confirm-box'
+import { useConfirm } from '@zhu-hong/confirm'
 
 useConfirm(config: IConfirmConfig)
 
