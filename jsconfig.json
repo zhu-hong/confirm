@@ -1,22 +1,16 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
     "baseUrl": "./",
-    "moduleResolution": "NodeNext",
     "paths": {
       "@/*": [
         "src/*"
       ]
     },
-    "lib": [
-      "esnext",
-      "dom",
-      "dom.iterable"
-    ],
-    "jsx": "preserve"
   },
   "vueCompilerOptions": {
-    "target": 2.7
+    "target": 2.7,
+    "extensions": [
+      ".vue"
+    ]
   }
 }

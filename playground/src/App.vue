@@ -9,6 +9,6 @@ export default {
 
 <template>
   <main class="w-screen h-screen flex justify-center items-center">
-    <button @click="useConfirm({ isDanger: true })">哔哔哔</button>
+    <button @click="useConfirm({ danger: true, confirmText: '打', fill: '#0b58d2' })">哔哔哔</button>
   </main>
 </template>

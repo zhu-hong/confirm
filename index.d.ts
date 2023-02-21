@@ -23,7 +23,7 @@ interface IConfirmConfig {
    * @default false
    * @description 确认按钮是否为危险类型
    */
-  isDanger: boolean
+  danger: boolean
   /**
    * @default true
    * @description 显示取消按钮
@@ -38,7 +38,7 @@ interface IConfirmConfig {
    * @default '#FF9900'
    * @description 图标颜色
    */
-  fill: string
+  tipFill: string
   /**
    * @default true
    * @description 显示遮罩层
@@ -56,7 +56,7 @@ interface IConfirmConfig {
   top: string
 }
 
-declare function useConfirm(config?: IConfirmConfig): Promise<void>
+declare function useConfirm(config?: IConfirmConfig): Promise<string>
 
 export {
   useConfirm
